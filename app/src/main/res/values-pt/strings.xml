@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Alarme</string>
+    <string name="login_title">Usuário</string>
+    <string name="login_passwd_prompt">Senha:</string>
+    <string name="login_passwd_ok">O K</string>
+    <string name="login_passwd_cancel">Cancela</string>
+    <string name="main_btn_defence">ON/OFF</string>
+    <string name="main_btn_ipc">Camera</string>
+    <string name="main_btn_zone">Zona</string>
+    <string name="main_btn_scene">Cenário</string>
+    <string name="main_btn_setup">Configuração</string>
+    <string name="main_text_prompt">Atual:</string>
+    <string name="main_text_withdraw">Desliga</string>
+    <string name="main_text_out">Casa Vazia</string>
+    <string name="main_text_home">Em Casa</string>
+    <string name="main_text_sleep">Dormindo</string>
+    <string name="main_prompt_title">Erro:</string>
+    <string name="main_prompt_defence">Impossível configurar - alarme ligado!</string>
+    <string name="main_prompt_ok">OK</string>
+    <string name="defence_btn_home">Em Casa</string>
+    <string name="defence_btn_out">Casa Vazia</string>
+    <string name="defence_btn_sleep">Dormindo</string>
+    <string name="defence_btn_withdraw">Desliga</string>
+    <string name="scene_text_mode">Cenário</string>
+    <string name="scene_text_out">Casa Vazia</string>
+    <string name="scene_text_home">Em Casa</string>
+    <string name="scene_text_sleep">Dormindo</string>
+    <string name="scene_text_timeout">Tempo de Ativação:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>Imediato</item>
+        <item>30s</item>
+        <item>40s</item>
+        <item>60s</item>
+        <item>100s</item>
+        <item>300s</item>
+    </string-array>
+    <string name="zone_text_no">NO.</string>
+    <string name="zone_text_type">Tipo</string>
+    <string name="zone_text_mode">Modo</string>
+    <string name="zone_text_delay">Atraso</string>
+    <string name="zone_text_sensor">Sensor</string>
+    <string-array name="zone_type_arrays">
+        <item>Normal</item>
+        <item>Emerg.</item>
+        <item>24 Horas</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3C</item>
+        <item>NA</item>
+        <item>NF</item>
+        <item>CAMP.</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>40s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>Fumaça</item>
+        <item>Gas</item>
+        <item>Movimento</item>
+        <item>Porta</item>
+        <item>Janela</item>
+        <item>Pânico</item>
+        <item>Inundação</item>
+        <item>Perímetro</item>
+        <item>Saúde</item>
+    </string-array>
+    <string name="setup_btn_passwd">Senha</string>
+    <string name="setup_passwd_old">Anterior:</string>
+    <string name="setup_passwd_new">Nova:</string>
+    <string name="setup_passwd_confirm">Confirma:</string>
+    <string name="alarm_prompt_passwd">Senha:</string>
+    <string name="setup_btn_ok">O K</string>
+    <string name="ipc_text_monitor">Monitorando</string>
+    <string name="ipc_text_err">Erro!</string>
+</resources>

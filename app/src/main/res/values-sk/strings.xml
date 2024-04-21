@@ -1,0 +1,94 @@
+<resources>
+
+    <string name="app_name">Bezpečnosť</string>
+
+    <string name="login_title">Užívateľ</string>
+    <string name="login_passwd_prompt">Heslo:</string>
+    <string name="login_passwd_ok">O K</string>
+    <string name="login_passwd_cancel">Zrušiť</string>
+
+    <string name="main_btn_defence">NA/PREČ</string>
+    <string name="main_btn_ipc">Fotoaparát</string>
+    <string name="main_btn_zone">Pásmo</string>
+    <string name="main_btn_scene">Scéna</string>
+    <string name="main_btn_setup">Nastavenia</string>
+
+    <string name="main_text_prompt">Súčasný:</string>
+    <string name="main_text_withdraw">PREČ</string>
+    <string name="main_text_out">Von</string>
+    <string name="main_text_home">Domov</string>
+    <string name="main_text_sleep">Spať</string>
+
+    <string name="main_prompt_title">Okamžitý:</string>
+    <string name="main_prompt_defence">Nie je možné nastaviť na obranu!</string>
+    <string name="main_prompt_ok">OK</string>
+
+    <string name="defence_btn_home">Domov</string>
+    <string name="defence_btn_out">Von</string>
+    <string name="defence_btn_sleep">Spať</string>
+    <string name="defence_btn_withdraw">PREČ</string>
+
+    <string name="scene_text_mode">Scéna</string>
+    <string name="scene_text_out">Von</string>
+    <string name="scene_text_home">Domov</string>
+    <string name="scene_text_sleep">Spať</string>
+    <string name="scene_text_timeout">Čas aktivácie:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>ŽIADNY</item>
+        <item>30s</item>
+        <item>40s</item>
+        <item>60s</item>
+        <item>100s</item>
+        <item>300s</item>
+    </string-array>
+
+    <string name="zone_text_no">NIE.</string>
+    <string name="zone_text_type">Typ</string>
+    <string name="zone_text_mode">Režim</string>
+    <string name="zone_text_delay">Zdržanie</string>
+    <string name="zone_text_sensor">Senzor</string>
+
+    <string-array name="zone_type_arrays">
+        <item>Normálny</item>
+        <item>Emerg.</item>
+        <item>24 Hodín</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3C</item>
+        <item>NIE</item>
+        <item>NC</item>
+        <item>ZVON</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>40s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>Dym</item>
+        <item>Plyn</item>
+        <item>PIR</item>
+        <item>Dvere</item>
+        <item>Okno</item>
+        <item>Panika</item>
+        <item>Povodeň</item>
+        <item>núd lano</item>
+        <item>Bed Mat</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">Heslo</string>
+    <string name="setup_passwd_old">Starý:</string>
+    <string name="setup_passwd_new">Nový:</string>
+    <string name="setup_passwd_confirm">Potvrdiť:</string>
+
+    <string name="alarm_prompt_passwd">Heslo:</string>
+
+    <string name="setup_btn_ok">O K</string>
+
+    <string name="ipc_text_monitor">Monitorovanie...</string>
+    <string name="ipc_text_err">Vyskytla sa chyba!</string>
+</resources>

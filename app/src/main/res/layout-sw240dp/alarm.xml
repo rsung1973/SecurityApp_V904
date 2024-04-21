@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+	android:focusableInTouchMode="true"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/alarm_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FF0000" />
+
+        <ImageView
+            android:id="@+id/alarm_bkg"
+            android:layout_width="360dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/alarm_title"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/alarm_passwd"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:inputType="numberPassword"
+            android:layout_below="@+id/alarm_bkg"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alarm_bkg"
+            android:layout_toLeftOf="@+id/alarm_passwd"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="16dp"
+            android:textSize="20sp"
+            android:text="@string/alarm_prompt_passwd" />
+
+        <com.dnake.widget.Button2
+            android:id="@+id/alarm_btn_ok"
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/alarm_bkg"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/alarm_passwd"
+            android:background="@drawable/setup_btn_ok"
+            android:text="@string/login_passwd_ok"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

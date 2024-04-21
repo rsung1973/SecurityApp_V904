@@ -1,0 +1,102 @@
+<resources>
+
+    <string name="app_name">Bezpieczeństwo</string>
+
+    <string name="login_title">Użytkownik</string>
+    <string name="login_passwd_prompt">Hasło:</string>
+    <string name="login_passwd_ok">OK</string>
+    <string name="login_passwd_cancel">Wyjście</string>
+
+    <string name="main_btn_defence">Włacz/Wyłącz</string>
+    <string name="main_btn_ipc">Kamera</string>
+    <string name="main_btn_zone">Strefa</string>
+    <string name="main_btn_scene">Widok</string>
+    <string name="main_btn_setup">Ustawienia</string>
+
+    <string name="main_text_prompt">Obecny:</string>
+    <string name="main_text_withdraw">Wyłącz</string>
+    <string name="main_text_out">Na zewnątrz</string>
+    <string name="main_text_home">W domu</string>
+    <string name="main_text_sleep">Noc</string>
+
+    <string name="main_prompt_title">Podpowiedź:</string>
+    <string name="main_prompt_defence">Nie można ustawić ochrony!</string>
+    <string name="main_prompt_ok">OK</string>
+
+    <string name="defence_btn_home">W domu</string>
+    <string name="defence_btn_out">Na zewnątrz</string>
+    <string name="defence_btn_sleep">Noc</string>
+    <string name="defence_btn_withdraw">Wyłącz</string>
+
+    <string name="scene_text_mode">Widok</string>
+    <string name="scene_text_out">Na zew.</string>
+    <string name="scene_text_home">W domu</string>
+    <string name="scene_text_sleep">Noc</string>
+    <string name="scene_text_timeout">Czas aktywacji:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>Żaden</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>30s</item>
+        <item>40s</item>
+        <item>60s</item>
+        <item>100s</item>
+        <item>200s</item>
+    </string-array>
+
+    <string name="zone_text_no">Nr</string>
+    <string name="zone_text_type">Typ</string>
+    <string name="zone_text_mode">Tryb</string>
+    <string name="zone_text_delay">Opóźn.</string>
+    <string name="zone_text_sensor">Czujnik</string>
+
+    <string-array name="zone_type_arrays">
+        <item>Normalny</item>
+        <item>Nagły wy.</item>
+        <item>24H</item>
+        <item>Secure Switch On/Off</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3C</item>
+        <item>NO</item>
+        <item>NC</item>
+        <item>Dzwonek</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>30s</item>
+        <item>40s</item>
+        <item>60s</item>
+        <item>100s</item>
+        <item>200s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>Dym</item>
+        <item>Gaz</item>
+        <item>PIR</item>
+        <item>Drzwi</item>
+        <item>Okno</item>
+        <item>Panika</item>
+        <item>Powódź</item>
+        <item>sznur</item>
+        <item>przycisk</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">Hasło</string>
+    <string name="setup_passwd_old">Stary:</string>
+    <string name="setup_passwd_new">Nowy:</string>
+    <string name="setup_passwd_confirm">Powtórz:</string>
+
+    <string name="alarm_prompt_passwd">Hasło:</string>
+
+    <string name="setup_btn_ok">OK</string>
+
+    <string name="ipc_text_monitor">Monitoring...</string>
+    <string name="ipc_text_err">Wystąpił błąd!</string>
+</resources>

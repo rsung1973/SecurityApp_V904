@@ -1,0 +1,94 @@
+<resources>
+
+    <string name="app_name">أمن</string>
+
+    <string name="login_title">مستخدم</string>
+    <string name="login_passwd_prompt">كلمه السر:</string>
+    <string name="login_passwd_ok">حسنا</string>
+    <string name="login_passwd_cancel">يلغي</string>
+
+    <string name="main_btn_defence">على/إيقاف</string>
+    <string name="main_btn_ipc">الة تصوير</string>
+    <string name="main_btn_zone">منطقة</string>
+    <string name="main_btn_scene">مشهد</string>
+    <string name="main_btn_setup">إعدادات</string>
+
+    <string name="main_text_prompt">حالي:</string>
+    <string name="main_text_withdraw">إيقاف</string>
+    <string name="main_text_out">خارج</string>
+    <string name="main_text_home">Home</string>
+    <string name="main_text_sleep">نايم</string>
+
+    <string name="main_prompt_title">مستعجل:</string>
+    <string name="main_prompt_defence">لا يمكن الإعداد في الدفاع على!</string>
+    <string name="main_prompt_ok">حسنا</string>
+
+    <string name="defence_btn_home">منزل، بيت</string>
+    <string name="defence_btn_out">خارج</string>
+    <string name="defence_btn_sleep">نايم</string>
+    <string name="defence_btn_withdraw">إيقاف</string>
+
+    <string name="scene_text_mode">مشهد</string>
+    <string name="scene_text_out">خارج</string>
+    <string name="scene_text_home">منزل، بيت</string>
+    <string name="scene_text_sleep">نايم</string>
+    <string name="scene_text_timeout">وقت التنشيط:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>لا أحد</item>
+        <item>30 دقيقة</item>
+        <item>40 دقيقة</item>
+        <item>60 دقيقة</item>
+        <item>100 دقيقة</item>
+        <item>300 دقيقة</item>
+    </string-array>
+
+    <string name="zone_text_no">لا.</string>
+    <string name="zone_text_type">نوع</string>
+    <string name="zone_text_mode">وضع</string>
+    <string name="zone_text_delay">تأخير</string>
+    <string name="zone_text_sensor">المستشعر</string>
+
+    <string-array name="zone_type_arrays">
+        <item>عادي</item>
+        <item>إميرج.</item>
+        <item>24 ساعة</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3 ج</item>
+        <item>عادي مفتوح</item>
+        <item>إغلاق عادي</item>
+        <item>جرس</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>40s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>دخان</item>
+        <item>غاز</item>
+        <item>PIR</item>
+        <item>باب</item>
+        <item>نافذة</item>
+        <item>ذعر</item>
+        <item>فيضان</item>
+        <item>حبل طارئ</item>
+        <item>زر السرير</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">كلمه السر</string>
+    <string name="setup_passwd_old">قديم:</string>
+    <string name="setup_passwd_new">جديد:</string>
+    <string name="setup_passwd_confirm">يتأكد:</string>
+
+    <string name="alarm_prompt_passwd">كلمه السر:</string>
+
+    <string name="setup_btn_ok">حسنا</string>
+
+    <string name="ipc_text_monitor">رصد...</string>
+    <string name="ipc_text_err">حدث خطأ!</string>
+</resources>

@@ -1,0 +1,102 @@
+<resources>
+
+    <string name="app_name">保全功能</string>
+
+    <string name="login_title">用戶密碼</string>
+    <string name="login_passwd_prompt">密碼：</string>
+    <string name="login_passwd_ok">確定</string>
+    <string name="login_passwd_cancel">取消</string>
+
+    <string name="main_btn_defence">啟動/解除</string>
+    <string name="main_btn_ipc">攝影機</string>
+    <string name="main_btn_zone">防區設定</string>
+    <string name="main_btn_scene">模式設定</string>
+    <string name="main_btn_setup">密碼設定</string>
+
+    <string name="main_text_prompt">目前狀態：</string>
+    <string name="main_text_withdraw">解除</string>
+    <string name="main_text_out">外出</string>
+    <string name="main_text_home">在家</string>
+    <string name="main_text_sleep">就寢</string>
+
+    <string name="main_prompt_title">提示：</string>
+    <string name="main_prompt_defence">請解除再進行設定！</string>
+    <string name="main_prompt_ok">確定</string>
+
+    <string name="defence_btn_home">在家</string>
+    <string name="defence_btn_out">外出</string>
+    <string name="defence_btn_sleep">就寢</string>
+    <string name="defence_btn_withdraw">解除</string>
+
+    <string name="scene_text_mode">模式</string>
+    <string name="scene_text_out">外出</string>
+    <string name="scene_text_home">在家</string>
+    <string name="scene_text_sleep">就寢</string>
+    <string name="scene_text_timeout">布防延時:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>無</item>
+        <item>5秒</item>
+        <item>15秒</item>
+        <item>20秒</item>
+        <item>25秒</item>
+        <item>30秒</item>
+        <item>40秒</item>
+        <item>60秒</item>
+        <item>100秒</item>
+        <item>200秒</item>
+    </string-array>
+
+    <string name="zone_text_no">防區</string>
+    <string name="zone_text_type">類型</string>
+    <string name="zone_text_mode">模式</string>
+    <string name="zone_text_delay">延時</string>
+    <string name="zone_text_sensor">設備</string>
+
+    <string-array name="zone_type_arrays">
+        <item>延時</item>
+        <item>緊急</item>
+        <item>24小時</item>
+        <item>保全設定</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3C</item>
+        <item>NO</item>
+        <item>NC</item>
+        <item>門鈴</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0秒</item>
+        <item>5秒</item>
+        <item>15秒</item>
+        <item>20秒</item>
+        <item>25秒</item>
+        <item>30秒</item>
+        <item>40秒</item>
+        <item>60秒</item>
+        <item>100秒</item>
+        <item>200秒</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>煙感</item>
+        <item>瓦斯</item>
+        <item>紅外</item>
+        <item>門磁</item>
+        <item>窗磁</item>
+        <item>緊急按鈕</item>
+        <item>浸水</item>
+        <item>緊急繩索</item>
+        <item>床頭按鈕</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">用戶密碼</string>
+    <string name="setup_passwd_old">舊密碼：</string>
+    <string name="setup_passwd_new">新密碼：</string>
+    <string name="setup_passwd_confirm">重新輸入：</string>
+
+    <string name="alarm_prompt_passwd">密碼：</string>
+
+    <string name="setup_btn_ok">確定</string>
+
+    <string name="ipc_text_monitor">視頻監視中...</string>
+    <string name="ipc_text_err">視頻監視異常!</string>
+</resources>

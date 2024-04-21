@@ -1,0 +1,94 @@
+<resources>
+
+    <string name="app_name">ביטחון</string>
+
+    <string name="login_title">משתמש</string>
+    <string name="login_passwd_prompt">סיסמה:</string>
+    <string name="login_passwd_ok">אוקיי</string>
+    <string name="login_passwd_cancel">בטל</string>
+
+    <string name="main_btn_defence">מופעל/כבוי</string>
+    <string name="main_btn_ipc">מצלמה</string>
+    <string name="main_btn_zone">איזור</string>
+    <string name="main_btn_scene">רקע</string>
+    <string name="main_btn_setup">הגדרות</string>
+
+    <string name="main_text_prompt">עכשווי:</string>
+    <string name="main_text_withdraw">כבוי</string>
+    <string name="main_text_out">חוץ</string>
+    <string name="main_text_home">בית</string>
+    <string name="main_text_sleep">שינה</string>
+
+    <string name="main_prompt_title">התחל:</string>
+    <string name="main_prompt_defence">לא יכול להתקין בהגנה על!</string>
+    <string name="main_prompt_ok">אוקיי</string>
+
+    <string name="defence_btn_home">בית</string>
+    <string name="defence_btn_out">חוץ</string>
+    <string name="defence_btn_sleep">שינה</string>
+    <string name="defence_btn_withdraw">כבוי</string>
+
+    <string name="scene_text_mode">רקע</string>
+    <string name="scene_text_out">חוץ</string>
+    <string name="scene_text_home">בית</string>
+    <string name="scene_text_sleep">שינה</string>
+    <string name="scene_text_timeout">זמן הפעלה:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>כלום</item>
+        <item>30 דקות</item>
+        <item>40 דקות</item>
+        <item>60 דקות</item>
+        <item>100 דקות</item>
+        <item>300 דקות</item>
+    </string-array>
+
+    <string name="zone_text_no">מספר</string>
+    <string name="zone_text_type">סוג</string>
+    <string name="zone_text_mode">מצב</string>
+    <string name="zone_text_delay">עכב</string>
+    <string name="zone_text_sensor">חיישן</string>
+
+    <string-array name="zone_type_arrays">
+        <item>נורמלי</item>
+        <item>חירום</item>
+        <item>24 שעות</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3 ג</item>
+        <item>רגיל פתוח</item>
+        <item>רגיל סגור</item>
+        <item>פעמון</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>40s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>עשן</item>
+        <item>גז</item>
+        <item>פיר</item>
+        <item>דלת</item>
+        <item>חלון</item>
+        <item>פאניקה</item>
+        <item>שיטפון</item>
+        <item>חבל חרום</item>
+        <item>Bed Mat</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">סיסמה</string>
+    <string name="setup_passwd_old">ישן:</string>
+    <string name="setup_passwd_new">חדש:</string>
+    <string name="setup_passwd_confirm">אשר:</string>
+
+    <string name="alarm_prompt_passwd">סיסמה:</string>
+
+    <string name="setup_btn_ok">אוקיי</string>
+
+    <string name="ipc_text_monitor">...מנטר</string>
+    <string name="ipc_text_err"> התרחשה שגיאה</string>
+</resources>

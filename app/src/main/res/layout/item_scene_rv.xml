@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_mode"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <CheckBox
+        android:id="@+id/chk_out"
+        style="@style/checkbtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@null" />
+
+    <CheckBox
+        android:id="@+id/chk_home"
+        style="@style/checkbtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@null" />
+
+    <CheckBox
+        android:id="@+id/chk_sleep"
+        style="@style/checkbtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@null" />
+</LinearLayout>

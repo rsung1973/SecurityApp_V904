@@ -1,0 +1,363 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sub_bkg" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/zone_text_no"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/zone_text_type"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/zone_text_mode"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/zone_text_delay"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/zone_text_sensor"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_0"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_0"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_0"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_0"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_0"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_1"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_1"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_1"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_1"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_1"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_2"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_2"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_2"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_2"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_2"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_3"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_3"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_3"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_3"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_3"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_4"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_4"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_4"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_4"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_4"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_5"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_5"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_5"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_5"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_5"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_6"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_6"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_6"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_6"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_6"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/zone_text_7"
+                android:layout_width="50dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/zone_type_7"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_mode_7"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_delay_7"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+
+            <Spinner
+                android:id="@+id/zone_sensor_7"
+                android:layout_width="140dp"
+                android:layout_height="28dp"
+                android:background="#00000000" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

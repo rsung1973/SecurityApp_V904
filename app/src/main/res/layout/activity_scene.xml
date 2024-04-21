@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_dim"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_header"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:animateLayoutChanges="true"
+            android:background="#801c1c1c"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:src="@mipmap/ic_back" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/main_btn_scene"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <ImageView
+                android:id="@+id/btn_save"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_baseline_ok_64" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="28dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/scene_text_timeout"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/scene_timeout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/shape_drop_down_normal"
+                android:gravity="center"
+                android:paddingEnd="32dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="64dp"
+            android:orientation="horizontal">
+
+            <include
+                layout="@layout/layout_scene_header"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_scene"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

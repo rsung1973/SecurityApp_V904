@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Güvenlik</string>
+
+    <string name="login_title">Kullanýcý</string>
+    <string name="login_passwd_prompt">Þifre:</string>
+    <string name="login_passwd_ok">TAMAM</string>
+    <string name="login_passwd_cancel">Ýptal</string>
+
+    <string name="main_btn_defence">ON/OFF</string>
+    <string name="main_btn_ipc">Kamera</string>
+    <string name="main_btn_zone">Bölge</string>
+    <string name="main_btn_scene">Senaryo</string>
+    <string name="main_btn_setup">Ayarlar</string>
+
+    <string name="main_text_prompt">Þimdi:</string>
+    <string name="main_text_withdraw">OFF</string>
+    <string name="main_text_out">Dýþarý</string>
+    <string name="main_text_home">Ev</string>
+    <string name="main_text_sleep">Uyku</string>
+
+    <string name="main_prompt_title">Ýstek:</string>
+    <string name="main_prompt_defence">Güvenlik aktifken ayar yapýlamaz!</string>
+    <string name="main_prompt_ok">TAMAM</string>
+
+    <string name="defence_btn_home">Ev</string>
+    <string name="defence_btn_out">Dýþarý</string>
+    <string name="defence_btn_sleep">Uyku</string>
+    <string name="defence_btn_withdraw">KAPALI</string>
+
+    <string name="scene_text_mode">Senaryo</string>
+    <string name="scene_text_out">Dýþarý</string>
+    <string name="scene_text_home">Ev</string>
+    <string name="scene_text_sleep">Uyku</string>
+    <string name="scene_text_timeout">Aktivasyon Zamaný:</string>
+    <string-array name="scene_timeout_arrays">
+        <item>NONE</item>
+        <item>30s</item>
+        <item>40s</item>
+        <item>60s</item>
+        <item>100s</item>
+        <item>300s</item>
+    </string-array>
+
+    <string name="zone_text_no">HAYIR.</string>
+    <string name="zone_text_type">Tip</string>
+    <string name="zone_text_mode">Mod</string>
+    <string name="zone_text_delay">Gecikme</string>
+    <string name="zone_text_sensor">Sensör</string>
+
+    <string-array name="zone_type_arrays">
+        <item>Normal</item>
+        <item>Emerg.</item>
+        <item>24 Hour</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3C</item>
+        <item>NO</item>
+        <item>NC</item>
+        <item>BELL</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>40s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>Smoke</item>
+        <item>Gas</item>
+        <item>PIR</item>
+        <item>Door</item>
+        <item>Window</item>
+        <item>Panic</item>
+        <item>Flood</item>
+        <item>Pull Cord</item>
+        <item>Bed Mat</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">Þifre</string>
+    <string name="setup_passwd_old">Eski:</string>
+    <string name="setup_passwd_new">Yeni:</string>
+    <string name="setup_passwd_confirm">Teyit:</string>
+
+    <string name="alarm_prompt_passwd">Þifre:</string>
+
+    <string name="setup_btn_ok">O K</string>
+
+    <string name="ipc_text_monitor">Ýzleniyor...</string>
+    <string name="ipc_text_err">Hata Oluþtu!</string>
+</resources>

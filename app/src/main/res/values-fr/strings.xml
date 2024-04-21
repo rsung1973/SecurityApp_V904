@@ -1,0 +1,94 @@
+<resources>
+
+    <string name="app_name">Sécurité</string>
+
+    <string name="login_title">utilisateur</string>
+    <string name="login_passwd_prompt">Password:</string>
+    <string name="login_passwd_ok">O K</string>
+    <string name="login_passwd_cancel">Annulez.</string>
+
+    <string name="main_btn_defence">ON/OFF</string>
+    <string name="main_btn_ipc">Caméra</string>
+    <string name="main_btn_zone">Zone</string>
+    <string name="main_btn_scene">Scène</string>
+    <string name="main_btn_setup">Paramètres</string>
+
+    <string name="main_text_prompt">Courant:</string>
+    <string name="main_text_withdraw">OFF</string>
+    <string name="main_text_out">Dehors</string>
+    <string name="main_text_home">Accueil</string>
+    <string name="main_text_sleep">Dormir</string>
+
+    <string name="main_prompt_title">Prompt:</string>
+    <string name="main_prompt_defence">"Impossible de s'installer en défense sur!"</string>
+    <string name="main_prompt_ok">OK</string>
+
+    <string name="defence_btn_home">Accueil</string>
+    <string name="defence_btn_out">Dehors</string>
+    <string name="defence_btn_sleep">Dormir</string>
+    <string name="defence_btn_withdraw">OFF</string>
+
+    <string name="scene_text_mode">Scène</string>
+    <string name="scene_text_out">Dehors</string>
+    <string name="scene_text_home">Accueil</string>
+    <string name="scene_text_sleep">Dormir</string>
+    <string name="scene_text_timeout">"Heure d'activation:"</string>
+    <string-array name="scene_timeout_arrays">
+        <item>RIEN</item>
+        <item>30s</item>
+        <item>40s</item>
+        <item>60s</item>
+        <item>100s</item>
+        <item>300s</item>
+    </string-array>
+
+    <string name="zone_text_no">NON.</string>
+    <string name="zone_text_type">Taper</string>
+    <string name="zone_text_mode">Mode</string>
+    <string name="zone_text_delay">Retard</string>
+    <string name="zone_text_sensor">Capteur</string>
+
+    <string-array name="zone_type_arrays">
+        <item>Normal</item>
+        <item>Émerger.</item>
+        <item>24 Heure</item>
+    </string-array>
+    <string-array name="zone_mode_arrays">
+        <item>3C</item>
+        <item>NO</item>
+        <item>NC</item>
+        <item>CLOCHE</item>
+    </string-array>
+    <string-array name="zone_delay_arrays">
+        <item>0s</item>
+        <item>5s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>25s</item>
+        <item>40s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="zone_sensor_arrays">
+        <item>Fumée</item>
+        <item>Gaz</item>
+        <item>PIR</item>
+        <item>Porte</item>
+        <item>Fenêtre</item>
+        <item>Panique</item>
+        <item>Crue</item>
+        <item>Tirette</item>
+        <item>Bed Mat</item>
+    </string-array>
+
+    <string name="setup_btn_passwd">Password</string>
+    <string name="setup_passwd_old">Vieux:</string>
+    <string name="setup_passwd_new">Nouveau:</string>
+    <string name="setup_passwd_confirm">Confirmer:</string>
+
+    <string name="alarm_prompt_passwd">Password:</string>
+
+    <string name="setup_btn_ok">O K</string>
+
+    <string name="ipc_text_monitor">Surveillance...</string>
+    <string name="ipc_text_err">Erreur est survenue!</string>
+</resources>

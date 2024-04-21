@@ -1,0 +1,82 @@
+<resources>
+  <string name="app_name">Sicherheit</string>
+  <string name="login_title">Benutzer</string>
+  <string name="login_passwd_prompt">Passwort:</string>
+  <string name="login_passwd_ok">OK</string>
+  <string name="login_passwd_cancel">Abbrechen</string>
+  <string name="main_btn_defence">AN AUS</string>
+  <string name="main_btn_ipc">Kamera</string>
+  <string name="main_btn_zone">Zone</string>
+  <string name="main_btn_scene">Szene</string>
+  <string name="main_btn_setup">Einstellungen</string>
+  <string name="main_text_prompt">Strom:</string>
+  <string name="main_text_withdraw">AUS</string>
+  <string name="main_text_out">aus</string>
+  <string name="main_text_home">Heim</string>
+  <string name="main_text_sleep">Schlaf</string>
+  <string name="main_prompt_title">Prompt:</string>
+  <string name="main_prompt_defence">Lässt sich bei der Verteidigung nicht aufstellen!</string>
+  <string name="main_prompt_ok">OK</string>
+  <string name="defence_btn_home">Heim</string>
+  <string name="defence_btn_out">aus</string>
+  <string name="defence_btn_sleep">Schlaf</string>
+  <string name="defence_btn_withdraw">AUS</string>
+  <string name="scene_text_mode">Szene</string>
+  <string name="scene_text_out">aus</string>
+  <string name="scene_text_home">Heim</string>
+  <string name="scene_text_sleep">Schlaf</string>
+  <string name="scene_text_timeout">Aktivierungszeit:</string>
+  <string-array name="scene_timeout_arrays">
+    <item>KEINER</item>
+    <item>30s</item>
+    <item>40s</item>
+    <item>60er Jahre</item>
+    <item>100s</item>
+    <item>300s</item>
+  </string-array>
+  <string name="zone_text_no">NEIN.</string>
+  <string name="zone_text_type">Typ</string>
+  <string name="zone_text_mode">Modus</string>
+  <string name="zone_text_delay">Verzögern</string>
+  <string name="zone_text_sensor">Sensor</string>
+  <string-array name="zone_type_arrays">
+    <item>Normal</item>
+    <item>Auftauchen</item>
+    <item>24 Stunden</item>
+  </string-array>
+  <string-array name="zone_mode_arrays">
+    <item>3C</item>
+    <item>NEIN</item>
+    <item>NC</item>
+    <item>KLINGEL</item>
+  </string-array>
+  <string-array name="zone_delay_arrays">
+    <item>0s</item>
+    <item>5s</item>
+    <item>15s</item>
+    <item>20s</item>
+    <item>25s</item>
+    <item>40s</item>
+    <item>60er Jahre</item>
+  </string-array>
+  <string-array name="zone_sensor_arrays">
+    <item>Rauch</item>
+    <item>Gas</item>
+    <item>PIR</item>
+    <item>Tür</item>
+    <item>Fenster</item>
+    <item>Panik</item>
+    <item>Flut</item>
+    <item>Zugschnur</item>
+    <item>Bettmatte</item>
+  </string-array>
+
+  <string name="setup_btn_passwd">Passwort</string>
+  <string name="setup_passwd_old">Alt:</string>
+  <string name="setup_passwd_new">Neu:</string>
+  <string name="setup_passwd_confirm">Confirm:</string>
+  <string name="alarm_prompt_passwd">Passwort:</string>
+  <string name="setup_btn_ok">OK</string>
+  <string name="ipc_text_monitor">Überwachung...</string>
+  <string name="ipc_text_err">Ein Fehler ist aufgetreten!</string>
+</resources>
